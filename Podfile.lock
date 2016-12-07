@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - MQTTClient (0.8.5):
+    - MQTTClient/Core (= 0.8.5)
+  - MQTTClient/Core (0.8.5):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.8.5):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.8.5)
+  - MQTTClient/Websocket (0.8.5):
+    - MQTTClient/Min
+    - SocketRocket
+  - SocketRocket (0.5.1)
+  - Wia (0.3.1):
+    - AFNetworking (~> 3.1)
+    - MQTTClient (~> 0.8.5)
+    - MQTTClient/Websocket
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1)
+  - GoogleMaps
+  - MQTTClient (~> 0.8.5)
+  - MQTTClient/Websocket
+  - Wia (~> 0.3.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  MQTTClient: fca939bcd74aa70af2d8ee35f3e44f258f4e9888
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Wia: c7900d28c5345cf6f9c36f0069cdb1a8f8a35c17
+
+PODFILE CHECKSUM: 8ca1688afe3f5c5cedf7fe97460e49f270c53a15
+
+COCOAPODS: 1.1.1
